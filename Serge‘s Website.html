@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- 告诉浏览器是HTML5版本 -->
+<html lang="en">
+<!-- 定义当前文档的显示语言 -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- UTF-8包含了所有国家字符 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serge Su's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- em是倾斜 strong是加粗 del是删除线 ins是下划线 -->
+    <!-- h1是一级标题 1-6标题越来越小-->
+    <!-- div和span是用来布局的 像一个盒子里面可以装其他标签, div是大盒子 一行一个 span是小盒子一行多个 -->
+    <!-- img是图像标签 alt是替换文本 图像显示不出来用文字替换 -->
+    <!-- title是提示文本 鼠标放到图像上提示的文字 -->
+    <!-- weight设置图像宽度 height 设置高度 宽和高一般只改一个图片就不会被压扁 border设置图片的边框
+        所有属性都必须写在自己的主人里面, 部分顺序-->
+    <!-- a为超链接标签, 可以跳转到其他链接 href = "跳转目标, target = "目标弹出方式" _blank表示多出来一个页面跳转-->
+    <!-- a也有内部链接表示内部写的不同html相互链接 -->
+    <!-- 锚点链接可以快速定位到目标位置 a href = #名字 -->
+
+
+    <!-- ul是无序列表. 每一个小列表是一个li  ol是有序列表 dl是自定义列表 dt是是列表名字 dd是小列表-->
+    <h1 id="top">Welcome to Serge Su's Website!</h1>
+    <dl>
+        <dt>
+            <h2>Menu</h2>
+        </dt>
+        <dd>
+            <a href="IntroductionSerge.html" target="_blank">
+                <h3>Serge Su</h3>
+            </a>
+        </dd>
+        <dd>
+            <a href="IntroductionFamily.html" target="_blank">
+                <h3>Family</h3>
+            </a>
+        </dd>
+        <dd>
+            <a href="IntroductionResume.html" target="_blank">
+                <h3>Resume</h3>
+            </a>
+        </dd>
+        <dd>
+            <a href="IntroductionGirlfriend.html" target="_blank">
+                <h3>Girlfriend</h3>
+            </a>
+        </dd>
+        <dd>
+            <a href="Providing Suggestions.html" target="_blank">
+                <h3>Suggestions</h3>
+            </a>
+        </dd>
+    </dl>
+
+
+
+    <!-- 创建一个表格 tr 是行 td是行里的单元格 th是表头 align表示表格居中还是左右边
+        cellpadding：内容与单元格之间的距离. cellspacing：单元格与单元格之间的距离-->
+    <!-- 合并单元格跨行用rowspan 指向上面的单元格 跨列用colspan 指向左边的单元格 合并之后删掉多余单元格-->
+    <table align="center" border="1" cellpadding="15" cellspacing="0" width="500" height="249">
+        <!-- 通过类选择器来修饰 -->
+        <thead class="head">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Major</th>
+                <th>College</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Junhao Su</td>
+                <td>22</td>
+                <td>Male</td>
+                <td>sjh666@byu.edu</td>
+                <td>CS</td>
+                <td>BYU-Provo</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+</body>
+<footer>
+    <div><a href="#top">BACK TO THE TOP</a></div>
+</footer>
+
+</html>

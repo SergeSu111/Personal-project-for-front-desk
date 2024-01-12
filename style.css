@@ -1,0 +1,72 @@
+  h3 {
+      color: black;
+      font-size: 20px;
+      font-weight: lighter;
+      text-align: center;
+
+  }
+
+  h2 {
+      font-size: 30px;
+      font-weight: lighter;
+      text-align: center;
+      /* 将h2上的menu文字向右缩进1.3个em */
+      text-indent: 1.3em;
+
+
+  }
+
+  h1 {
+      font-size: 50px;
+      font-weight: lighter;
+      text-align: center;
+
+  }
+
+  body {
+      font-family: "Time New Roman";
+  }
+
+  /* 通过类选择器来修饰 */
+  .head {
+      font-size: 20px;
+  }
+
+  a {
+      /* 取消a默认的下划线 */
+      text-decoration: none;
+  }
+
+  #id_for_h1 {
+      font-family: 'Times New Roman';
+      font-weight: 100;
+      text-align: center;
+  }
+
+  p {
+      /* 文本开头缩进2个单位 */
+      text-indent: 2em;
+      /* 设置行高间距 */
+      line-height: 26px;
+  }
+
+  .h1_girlfriend {
+      font-family: 'Times New Roman';
+      font-weight: 100;
+      text-align: center;
+  }
+
+  .h1_resume {
+      text-align: center;
+      font-weight: lighter;
+  }
+
+  .h1_resume {
+      text-align: center;
+      font-weight: lighter;
+  }
+
+  .a_resume {
+      text-decoration: none;
+      font-weight: bolder;
+  }
